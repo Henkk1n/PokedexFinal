@@ -20,7 +20,7 @@ const fetchPokemon = async (pokemon) => {
 
 const renderPokemon = async (pokemon) => {
 
-  pokemonName.innerHTML = 'Loading...';
+  pokemonName.innerHTML = 'Carregando';
   pokemonNumber.innerHTML = '';
 
   const data = await fetchPokemon(pokemon);
@@ -36,7 +36,7 @@ const renderPokemon = async (pokemon) => {
 
   } else {
     pokemonImage.style.display = 'none';
-    pokemonName.innerHTML = 'Not found :c';
+    pokemonName.innerHTML = 'Nao Encontrado';
     pokemonNumber.innerHTML = '';
 
   }
