@@ -1,4 +1,4 @@
-O projeto foi desenvolvido com uso de html, css e javascript, o objetivo foi criar uma Pokedex, com uso de uma API.
+O projeto foi desenvolvido com uso de html, css e javascript, o objetivo foi criar uma Pokedex com uso de uma API.
 Criei o modelo da Pokedex por fora usando figma e usei como modelo para decidir onde ficariam os elementos na imagem.
 
 Usei o JS para facilitar a busca dos Pokemons por meio de uma barra de pesquisa que funciona por procura do nome e ID do Pokemon.
