@@ -20,13 +20,6 @@ const fetchPokemon = async (pokemon) => {
 
 const renderPokemon = async (pokemon) => {
 
-<<<<<<< HEAD
-  pokemonName.innerHTML = 'Carregando';
-=======
-  pokemonName.innerHTML = 'Procurando';
->>>>>>> 4cdfcae7d09be3e6906401204248927aed859c51
-  pokemonNumber.innerHTML = '';
-
   const data = await fetchPokemon(pokemon);
 
   if (data) {
@@ -42,7 +35,6 @@ const renderPokemon = async (pokemon) => {
     pokemonImage.style.display = 'none';
     pokemonName.innerHTML = 'Nao Encontrado';
     pokemonNumber.innerHTML = '';
-
   }
 }
 
@@ -64,6 +56,7 @@ buttonNext.addEventListener('click', () => {
   searchPokemon += 1;
   renderPokemon(searchPokemon);
 });
+
 
 
 renderPokemon(searchPokemon);

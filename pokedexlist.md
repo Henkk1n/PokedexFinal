@@ -11,20 +11,20 @@
 
 <input disabled="" type="checkbox" checked> Defina um estilo geral para a Pokédex (fontes, cores, etc.).  
 <input disabled="" type="checkbox" checked> Estilize o layout da página para que a Pokédex fique centralizada na tela.  
-<input disabled="" type="checkbox"> Estilize a exibição dos detalhes do Pokémon (imagem, nome, tipo).  
+<input disabled="" type="checkbox" checked> Estilize a exibição dos detalhes do Pokémon (imagem, nome, tipo).  
 <input disabled="" type="checkbox" checked> Crie estilos responsivos para diferentes tamanhos de tela.
 
 ## 3. Lógica de Busca (JavaScript)
 
 <input disabled="" type="checkbox"> Implemente a captura do valor do campo de entrada ao clicar no botão de busca.  
 <input disabled="" type="checkbox" checked> Faça uma requisição à PokéAPI para buscar os dados do Pokémon usando o nome ou ID fornecido.  
-<input disabled="" type="checkbox" > Exiba as informações básicas do Pokémon (nome, imagem, tipo) na página.  
+<input disabled="" type="checkbox" checked> Exiba as informações básicas do Pokémon (nome, imagem, tipo) na página.  
 <input disabled="" type="checkbox" checked> Trate erros de busca, exibindo uma mensagem caso o Pokémon não seja encontrado.
 
 ## 4. Exibição de Lista de Pokémon
 
-<input disabled="" type="checkbox"> Implemente uma função que faça uma requisição à PokéAPI para listar os primeiros 20 Pokémon.  
-<input disabled="" type="checkbox" > Exiba essa lista na página com o nome e imagem dos Pokémon.  
+<input disabled="" type="checkbox" checked> Implemente uma função que faça uma requisição à PokéAPI para listar os primeiros 20 Pokémon.  
+<input disabled="" type="checkbox" checked> Exiba essa lista na página com o nome e imagem dos Pokémon.  
 <input disabled="" type="checkbox"> Implemente a navegação para carregar mais Pokémon (paginação).
 
 ## 5. Funcionalidades Avançadas
@@ -36,14 +36,14 @@
 
 ## 6. Testes e Correções
 
-<input disabled="" type="checkbox"> Teste o funcionamento da Pokédex em diferentes navegadores.  
-<input disabled="" type="checkbox"> Verifique a responsividade em dispositivos móveis.  
+<input disabled="" type="checkbox" checked> Teste o funcionamento da Pokédex em diferentes navegadores.  
+<input disabled="" type="checkbox" checked> Verifique a responsividade em dispositivos móveis.  
 <input disabled="" type="checkbox"> Corrija possíveis bugs e valide o código.
 
 ## 7. Documentação
 
 <input disabled="" type="checkbox"> Documente o código JavaScript com comentários explicativos.  
-<input disabled="" type="checkbox"> Crie um arquivo README explicando como o projeto foi desenvolvido e como usá-lo.
+<input disabled="" type="checkbox" checked> Crie um arquivo README explicando como o projeto foi desenvolvido e como usá-lo.
 
 ## 8. Relatório de Bugs
 
